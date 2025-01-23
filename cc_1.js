@@ -25,3 +25,6 @@ console.log("After multiplication:", accountBalance);
 
 accountBalance /= 2; // Divide by 2
 console.log("After division:", accountBalance);
+let customerName = "Alice";
+let welcomeMessage = "Welcome, " + customerName + "! We are glad to have you.";
+console.log(welcomeMessage);
