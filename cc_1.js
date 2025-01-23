@@ -12,3 +12,16 @@ var isAvailable = true;
 console.log(productName, typeof productName);
 console.log(productPrice, typeof productPrice);
 console.log(isAvailable, typeof isAvailable);
+let accountBalance = 5000;
+
+accountBalance += 1000; // Add 1000
+console.log("After addition:", accountBalance);
+
+accountBalance -= 500; // Subtract 500
+console.log("After subtraction:", accountBalance);
+
+accountBalance *= 1.1; // Multiply by 1.1
+console.log("After multiplication:", accountBalance);
+
+accountBalance /= 2; // Divide by 2
+console.log("After division:", accountBalance);
