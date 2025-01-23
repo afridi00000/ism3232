@@ -1,4 +1,4 @@
-let employeeName = "John Doe";
+let employeeName = "Alex Chaffee";
 const employeeID = 12345;
 var isActive = true;
 
