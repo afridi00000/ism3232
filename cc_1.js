@@ -28,3 +28,9 @@ console.log("After division:", accountBalance);
 let customerName = "Alice";
 let welcomeMessage = "Welcome, " + customerName + "! We are glad to have you.";
 console.log(welcomeMessage);
+let isLoggedIn = true;
+let hasAccess = isLoggedIn && true; // Example condition
+let deniedAccess = !isLoggedIn; // Negation
+
+console.log("Access Granted:", hasAccess);
+console.log("Access Denied:", deniedAccess);
